@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #303433;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.side {
+    background-size: 100% 102%;
+    background-image: linear-gradient(to right, #F0AA41, #fff);
+}
+
+.side img {
+    width: 50%;
+    max-width: 50%;
+}
+
+.login-container {
+    max-width: 450px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.separator {
+    width: 150px;
+    height: 4px;
+    background-color: #F0AA41;
+    margin: 24px;
+}
+
+.welcome-message {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 28px;
+    margin-bottom: 30px;
+    color: #696969;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 100%;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.login-forgot {
+    text-align: center;
+    text-decoration: none;
+    color: #F0AA41;
+}
+
+.input-wrap span {
+    display: none;
+    color: #E73E3E;
+    font-size: 0.7rem;
+    padding: 16px;
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    font-size: 1.1em;
+}
+
+input {
+    width: 100%;
+    background: #FDF4E6;
+    letter-spacing: 0.5px;
+    padding: 14px 36px;
+    font-size: 0.9rem;
+}
+
+input::placeholder {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+input ~ i {
+    position: absolute;
+    left: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    transition: color   0.4s;
+}
+
+input:focus ~ i {
+    color: #843bc7;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    accent-color: #0F2151;
+}
+
+button.submit {
+    color: #fff;
+    padding: 14px 64px;
+    margin: 32px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #F0AA41, #F0AA41);
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+button.submit:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 780px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side {
+        display: none;
+    }
+}
