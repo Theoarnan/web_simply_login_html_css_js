@@ -1,1 +1,11 @@
-# web_simply_login_html_css_js
+# Submission 3 Dicoding
+This is a project for Submission Dicoding Belajar Fundamental Aplikasi Flutter 2023.
+ 
+## Login Simple
+Test create login page with HTML, CSS, JS
+
+### DEMO 
+https://drive.google.com/file/d/10HYw-T-gUIGgMXmzImXKWIjveFVIQxR1/view?usp=sharing
+
+## Authors
+- [@theoarnan](https://www.github.com/theoarnan)
