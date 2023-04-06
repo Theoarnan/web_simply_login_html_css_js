@@ -1,7 +1,4 @@
-# Submission 3 Dicoding
-This is a project for Submission Dicoding Belajar Fundamental Aplikasi Flutter 2023.
- 
-## Login Simple
+# Login Simple
 Test create login page with HTML, CSS, JS
 
 ### DEMO 
